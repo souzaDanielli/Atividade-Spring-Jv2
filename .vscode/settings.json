@@ -1,6 +1,6 @@
 {
     "java.server.launchMode": "Standard",
-    "java.jdt.ls.java.home": "${JAVA_HOME}",
+    "java.jdt.ls.java.home": "${localEnv:JAVA_HOME}",
     "files.exclude": {
         ".devcontainer": true,
         ".github": true,
