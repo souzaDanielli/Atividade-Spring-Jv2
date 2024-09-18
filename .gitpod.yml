@@ -4,6 +4,3 @@ vscode:
     extensions:
       - vscjava.vscode-java-pack
       - humao.rest-client
-
-tasks:
-  - init: "export JAVA_HOME=/home/gitpod/.sdkman/candidates/java/21.0.4.fx-zulu"
