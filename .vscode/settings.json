@@ -1,7 +1,13 @@
 {
     "java.server.launchMode": "Standard",
+    "java.jdt.ls.java.home": "${JAVA_HOME}",
     "files.exclude": {
-        ".*": true,
+        ".devcontainer": true,
+        ".github": true,
+        ".gradle": true,
+        ".vscode": true,
+        ".gitignore": true,
+        ".gitpod.yml": true,
         "build": true,
     }
 }
